@@ -27,7 +27,7 @@ variable "instance_name" {
 }
 
 variable "image" {
-  description = "image for you mckesson"
+  description = "image for you"
   default     = "ubuntu-minimal-1810-cosmic-v20181119a"
 }
 
