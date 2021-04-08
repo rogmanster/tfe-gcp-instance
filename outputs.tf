@@ -4,4 +4,6 @@ output "external_ip"{
 
 output "credential" {
   value = var.gcp_credentials
+  sensitive   = true
+
 }
